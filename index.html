@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Michael Antonio Morantes Pachon: proyectos, habilidades y contacto." />
+    <title>Portafolio | Michael A. Morantes</title>
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header / Navbar -->
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Ir al inicio">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Michael Morantes</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Navegación principal">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#estudios">Estudios</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="nav__actions">
+          <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Cambiar tema">
+            🌙
+          </button>
+          <button id="menuToggle" class="btn btn--ghost nav__burger" type="button" aria-label="Abrir menú">
+            ☰
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#estudios">Estudios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <p class="pill">Estudiante • Data & Analytics</p>
+            <h1>
+              Hola, soy <span class="accent">Michael Antonio Morantes Pachon</span>.
+            </h1>
+            <p class="lead">
+              Me apasiona convertir datos en decisiones. Trabajo con análisis estadístico, visualización y automatización
+              usando <strong>Python</strong> y <strong>R</strong>.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/michael-antonio-morantes-pachon-487413398" target="_blank" rel="noreferrer">
+                LinkedIn ↗
+              </a>
+            </div>
+
+            <div class="hero__meta">
+              <div class="meta-card">
+                <span class="meta-card__k">Enfoque</span>
+                <span class="meta-card__v">Estadística • Ciencia de Datos</span>
+              </div>
+              <div class="meta-card">
+                <span class="meta-card__k">Stack</span>
+                <span class="meta-card__v">Python • R • Excel • Power BI</span>
+              </div>
+              <div class="meta-card">
+                <span class="meta-card__k">Ubicación</span>
+                <span class="meta-card__v">Colombia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <!-- Pon tu foto en: img/profile.jpg -->
+            <img class="avatar" src="img/profile.jpg" alt="Foto de perfil" onerror="this.style.display='none'" />
+            <div class="hero__card__body">
+              <h2 class="h3">Resumen rápido</h2>
+              <ul class="checklist">
+                <li>Análisis descriptivo e inferencial</li>
+                <li>Modelado estadístico y ML básico</li>
+                <li>ETL / limpieza de datos</li>
+                <li>Dashboards y reportes</li>
+              </ul>
+              <a class="btn btn--secondary w-full" href="#contacto">Hablemos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section id="sobre-mi" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Sobre mí</h2>
+            <p class="muted">
+              Aquí puedes personalizar lo que haces, a qué te dedicas y qué te motiva.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>¿Qué hago?</h3>
+              <p>
+                Soy estudiante enfocado en estadística y análisis de datos. Me gusta entender problemas reales,
+                diseñar métricas y crear soluciones con datos (desde limpieza y exploración hasta modelos y visualizaciones).
+              </p>
+              <p>
+                Me interesa especialmente: <strong>muestreo</strong>, <strong>estadística aplicada</strong>,
+                <strong>dashboards</strong> y <strong>modelos para apoyar decisiones</strong>.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>Actitudes y valores</h3>
+              <div class="tags">
+                <span class="tag">Curiosidad</span>
+                <span class="tag">Disciplina</span>
+                <span class="tag">Responsabilidad</span>
+                <span class="tag">Aprendizaje continuo</span>
+                <span class="tag">Pensamiento analítico</span>
+                <span class="tag">Enfoque en resultados</span>
+              </div>
+
+              <hr class="sep" />
+
+              <h3>Habilidades blandas</h3>
+              <ul class="bullets">
+                <li>Comunicación clara (explicar hallazgos con contexto)</li>
+                <li>Trabajo en equipo y colaboración</li>
+                <li>Gestión del tiempo y priorización</li>
+                <li>Atención al detalle</li>
+                <li>Autonomía y proactividad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="habilidades" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Habilidades</h2>
+            <p class="muted">Tecnologías y capacidades que uso para crear valor con datos.</p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card">
+              <h3>Python</h3>
+              <p class="muted">Análisis, automatización y modelos.</p>
+              <ul class="bullets">
+                <li>Pandas / NumPy</li>
+                <li>Visualización (Matplotlib/Plotly)</li>
+                <li>ML básico (scikit-learn)</li>
+                <li>APIs / scripts</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>R</h3>
+              <p class="muted">Estadística aplicada y reportes.</p>
+              <ul class="bullets">
+                <li>Tidyverse</li>
+                <li>Pruebas de hipótesis</li>
+                <li>Series de tiempo (según proyecto)</li>
+                <li>RMarkdown / Quarto</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>BI & Office</h3>
+              <p class="muted">Reportes, tableros y análisis para negocio.</p>
+              <ul class="bullets">
+                <li>Excel (tablas dinámicas, fórmulas)</li>
+                <li>Power BI (modelado, medidas)</li>
+                <li>Storytelling con datos</li>
+                <li>Documentación y presentación</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Estudios -->
+      <section id="estudios" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Estudios</h2>
+            <p class="muted">Tu formación académica y temas principales.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content card">
+                <h3>Pregrado en Estadística</h3>
+                <p class="muted">
+                  Universidad Santo Tomás (USTA) • Colombia
+                </p>
+                <ul class="bullets">
+                  <li>Muestreo, inferencia, probabilidad</li>
+                  <li>Modelado y análisis multivariado</li>
+                  <li>Series de tiempo y analítica aplicada</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content card">
+                <h3>Intereses actuales</h3>
+                <p class="muted">
+                  Ciencia de datos aplicada, dashboards y automatización.
+                </p>
+                <div class="tags">
+                  <span class="tag">Machine Learning</span>
+                  <span class="tag">Data Cleaning</span>
+                  <span class="tag">Visualización</span>
+                  <span class="tag">Muestreo</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="note">
+            *Si quieres, también puedes añadir certificaciones, cursos o seminarios aquí.
+          </p>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Proyectos</h2>
+            <p class="muted">
+              Agrega aquí 3–6 proyectos. Incluye problema, qué hiciste, herramientas y resultados.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card project">
+              <h3>Proyecto 1: Análisis de datos</h3>
+              <p class="muted">Exploración, limpieza y hallazgos clave.</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">EDA</span>
+              </div>
+              <div class="project__links">
+                <a class="link" href="#" aria-disabled="true">Demo</a>
+                <a class="link" href="#" aria-disabled="true">Repo</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <h3>Proyecto 2: Modelo estadístico</h3>
+              <p class="muted">Inferencia / predicción con interpretación.</p>
+              <div class="tags">
+                <span class="tag">R</span>
+                <span class="tag">Inferencia</span>
+                <span class="tag">Reportes</span>
+              </div>
+              <div class="project__links">
+                <a class="link" href="#" aria-disabled="true">Reporte</a>
+                <a class="link" href="#" aria-disabled="true">Código</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <h3>Proyecto 3: Dashboard</h3>
+              <p class="muted">KPIs, métricas y visualización.</p>
+              <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">KPIs</span>
+              </div>
+              <div class="project__links">
+                <a class="link" href="#" aria-disabled="true">Capturas</a>
+                <a class="link" href="#" aria-disabled="true">Detalle</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contacto</h2>
+            <p class="muted">Si quieres colaborar o tienes una oportunidad, hablemos.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>Enlaces</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-list__k">LinkedIn</span>
+                  <a class="contact-list__v" href="https://www.linkedin.com/in/michael-antonio-morantes-pachon-487413398" target="_blank" rel="noreferrer">
+                    michael-antonio-morantes-pachon ↗
+                  </a>
+                </li>
+                <li>
+                  <span class="contact-list__k">Email</span>
+                  <a class="contact-list__v" href="mailto:tuemail@ejemplo.com">michaelmorantesp@gmail.com</a>
+                </li>
+                <li>
+                  <span class="contact-list__k">GitHub</span>
+                  <a class="contact-list__v" href="#" aria-disabled="true">tu-usuario</a>
+                </li>
+              </ul>
+              <p class="note">
+                Cambia el correo y agrega tu GitHub cuando lo tengas.
+              </p>
+            </div>
+
+            <form class="card form" onsubmit="return false;">
+              <h3>Mensaje rápido</h3>
+              <label>
+                Nombre
+                <input type="text" placeholder="Tu nombre" />
+              </label>
+              <label>
+                Mensaje
+                <textarea rows="5" placeholder="Hola Michael, me gustaría hablar sobre..."></textarea>
+              </label>
+              <button class="btn btn--primary" type="button" id="copyMsg">
+                Copiar mensaje
+              </button>
+              <p class="note" id="copyHint" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <p>© <span id="year"></span> Michael Antonio Morantes Pachon</p>
+        <p class="muted">Hecho con HTML • CSS • JS</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
